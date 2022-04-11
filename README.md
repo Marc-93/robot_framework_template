@@ -23,9 +23,10 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 **Pre-requisites:**
 1. Install [homebrew](https://brew.sh/).
 2. Install [python](https://www.python.org/downloads/).
-3. Install your favourite IDE (pycharm, VS code).
-4. Install the requirements file: 
-   * With python console, go to setup location: `$ cd setup`
+3. Install allure reporter with terminal: `$ brew install allure`
+4. Install your favourite IDE (pycharm, VS code).
+5. Install the requirements file: 
+   * Open terminal and go to setup location: `$ cd setup`
    * Install the project requirements: `$ pip3 install -r requirements.txt`
 
 **Setup**

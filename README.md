@@ -40,3 +40,6 @@ The test language is Gherkin due is designed to facilitate the understanding of 
    * `$ robot --variable HOST:<url> --variablefile <filepath>.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./<robot_path>`
 3. Run the following command to display the test result:
    * `$ allure serve src/output/allure`
+
+**Run example:**
+`$ robot --variable HOST:https://dev.sherwood.cash --variablefile src/environment/dev.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./src/features`

@@ -13,3 +13,4 @@ Test case name
     GIVEN Step template GIVEN
     WHEN Step template WHEN
     THEN Step template THEN
+    Log                 Environment: ${url}

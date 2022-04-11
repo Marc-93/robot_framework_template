@@ -37,9 +37,6 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 **Test execution**
 1. From your terminal, go to your repository path using `$ cd`.
 2. Run the following command to execute the tests:
-   * `$ robot --variable HOST:<url> --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./<robot_path>`
+   * `$ robot --variable HOST:<url> --variablefile <filepath>.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./<robot_path>`
 3. Run the following command to display the test result:
    * `$ allure serve src/output/allure`
-     `
-
-

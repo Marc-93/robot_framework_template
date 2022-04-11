@@ -32,7 +32,7 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 **Setup**
 
 1. Clone the code from github.
-2. Checkout to `master` branch.
+2. Checkout to `main` branch.
 
 **Test execution**
 1. From your terminal, go to your repository path using `$ cd`.
@@ -42,4 +42,5 @@ The test language is Gherkin due is designed to facilitate the understanding of 
    * `$ allure serve src/output/allure`
 
 **Run example:**
+
 `$ robot --variable HOST:https://dev.sherwood.cash --variablefile src/environment/dev.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./src/features`

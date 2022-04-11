@@ -24,10 +24,9 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 1. Install [homebrew](https://brew.sh/).
 2. Install [python](https://www.python.org/downloads/).
 3. Install your favourite IDE (pycharm, VS code).
-4. Install the following libraries by command line:
-   * robotframework: `$ pip install robotframework`
-   * allure-robotframework: `$ pip install allure-robotframework`
-   * requests: `$ pip install requests`
+4. Install the requirements file: 
+   * With python console, go to setup location: `$ cd setup`
+   * Install the project requirements: `$ pip3 install -r requirements.txt`
 
 **Setup**
 

@@ -44,3 +44,17 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 **Run example:**
 
 `$ robot --variable HOST:https://dev.sherwood.cash --variablefile src/environment/dev.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./src/features`
+
+## Test results
+
+**Console:**
+
+<img width="1783" alt="image" src="https://user-images.githubusercontent.com/39099834/162784107-072b1d7d-f097-4611-a533-a665d5eb042e.png">
+
+**Allure report:**
+
+<img width="1913" alt="image" src="https://user-images.githubusercontent.com/39099834/162784321-05abe421-c5d6-403c-946b-9403e0068787.png">
+
+**Robot framework report:**
+
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/39099834/162784519-6ff31eb5-6b9f-44b9-ae14-0c17d0294c48.png">

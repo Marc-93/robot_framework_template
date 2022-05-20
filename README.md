@@ -43,7 +43,7 @@ The test language is Gherkin due is designed to facilitate the understanding of 
 
 **Run example:**
 
-`$ robot --variable HOST:https://dev.sherwood.cash --variablefile src/environment/dev.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./src/features`
+`$ robot --variable HOST:<url> --variablefile src/environment/dev.yaml --outputdir src/output/robot --listener allure_robotframework:./src/output/allure ./src/features`
 
 ## Test results
 
